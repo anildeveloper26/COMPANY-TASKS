@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+      * {
+        text-align: center;
+      }
+      body {
+        background-image: url("./assets/background.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+      }
+      .container {
+        margin-top: 300px;
+        margin-right: 450px;
+        margin-left: 450px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      image {
+        height: 100%;
+        width: 100%;
+      }
+
+      input{
+        font-size: 20px;
+        width: 800px;
+        height: 70px;
+        margin-top: 50px;
+      }
+      .track {
+        font-size: 18px;
+        font: bold;
+        color: white;
+        background-color: rgb(255, 123, 0);
+        height: 74px;
+        width: 100px;
+      }
+
+      .grid_container {
+        /* background-color: gray; */
+        height: 5cm;
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+        row-gap: 5px;
+        column-gap: 10px;
+      }
+      .middle_container {
+        text-align: center;
+      }
+      
+      button:hover{
+        transform: scale(1.2);
+        transition: transform .5s;
+        background-color: lightgreen;
+      }
+    </style>
+
+ -->
+
+
+
+    <style>
+      * {
+        text-align: center;
+      }
+      body {
+        background-image: url("./assets/background.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+      }
+      .container {
+        margin-top: 300px;
+        margin-right: 450px;
+        margin-left: 500px;
+        padding-bottom: 50px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 160px 160px 160px;
+      }
+      image {
+        height: 100%;
+        width: 100%;
+      }
+
+      input {
+        font-size: 20px;
+        width: 800px;
+        height: 70px;
+        margin-top: 50px;
+      }
+      .track {
+        font-size: 18px;
+        font: bold;
+        color: white;
+        background-color: orange;
+        height: 74px;
+        width: 100px;
+      }
+
+      .middle_container {
+        text-align: center;
+      }
+
+      button:hover {
+        transform: scale(1.2);
+        transition: transform 0.5s;
+        background-color:rgb(21, 200, 21);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body_container">
+      <h1>Ship, manage, track, deliver</h1>
+      <div class="middle_container">
+        <div class="container">
+          <div>
+            <button>
+              <img
+                class="image"
+                style="height: 150px; width: 150px"
+                src="./assets/rate_ship.png"
+                alt=""
+              />
+            </button>
+          </div>
+          <div>
+            <button>
+              <img
+                class="image"
+                style="height: 150px; width: 150px"
+                src="./assets/Track.webp"
+                alt=""
+              />
+            </button>
+          </div>
+          <div>
+            <button>
+              <img
+                class="image"
+                style="height: 150px; width: 150px"
+                src="./assets/location.png"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div>
+          <input type="text" placeholder="TRACKING ID" /><button class="track">
+            TRACK
+          </button>
+
+          <h3 style="color: white">MULTIPLE TRACKING NUMBERS | NEED HELP?</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

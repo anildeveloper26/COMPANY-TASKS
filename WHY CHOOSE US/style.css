@@ -1,0 +1,112 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .why_choose_us {
+        height: 400px;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .why_choose_us>div  {
+        margin: 0px;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 0px;
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .why_choose_us>div:last-child {
+        border-bottom: none;
+    }
+    .uniqueitems_container {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .why_choose_us img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1550px) {
+    .why_choose_us {
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #00435d;
+    }
+
+    .firstone {
+        margin: 50px 20px;
+        border-right: 1px solid #fff;
+        padding-left: 3em;
+        padding: 0px 0px 0px 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .secondone {
+        border-right: 1px solid #fff;
+        padding-left: 3em;
+        padding: 0px 0px 0px 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .thirdone {
+        padding: 0px 0px 0px 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .uniqueitems_container {
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    h5,
+    p {
+        margin: 0px;
+    }
+
+    h5 {
+        overflow-wrap: break-word;
+        color: #ffffff;
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+
+    p {
+        line-height: 1.4;
+        max-width: 70%;
+        color: #ffffff;
+        font-size: 15px;
+        font-family: sans-serif;
+
+    }
+}

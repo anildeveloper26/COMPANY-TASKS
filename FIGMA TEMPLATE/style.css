@@ -1,0 +1,20 @@
+/* @font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/Kincrev.otf') format('otf');
+    font-style: thin;
+}
+
+body {
+    font-family: 'CustomFont', 'sans-serif';
+    font-size: 62.47px;
+    font-weight: 400;
+    line-height: 49.98px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+} */
+
+.right {
+    z-index: 999; 
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind First Projet</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="font-sance">
+    <!-- primary navigation bar -->
+    <header class="border-y-gray-800">
+      <div
+        class="flex items-center justify-between pb-2.5 mt-2.5 ml-40 mr-40"
+      >
+        <img width="260" height="80" src="./assets/company-logo.svg" alt="" />
+        <div class="flex">
+          <div class="flex">
+            <img
+              class="mr-2.5"
+              height="20"
+              width="20"
+              src="./assets/PRIMARY_NAVBAR_ASSETS/testing-tube.svg"
+              alt=""
+            />
+            <span class="text-amber-500">Lab tests</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <img
+              class="ml-2.5 mr-2.5"
+              height="20"
+              width="20"
+              src="./assets/PRIMARY_NAVBAR_ASSETS/wishList.svg"
+              alt=""
+            />
+            <span>Wishlist</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <img
+              class="ml-5 mr-5"
+              height="20"
+              width="20"
+              src="./assets/PRIMARY_NAVBAR_ASSETS/shopping-cart.svg"
+              alt=""
+            />
+          </div>
+          <div class="flex items-center justify-between">
+            <img
+              class="mr-2.5"
+              height="20"
+              width="20"
+              src="./assets/PRIMARY_NAVBAR_ASSETS/login-user.svg"
+              alt=""
+            />
+            <span>Login</span>
+          </div>
+        </div>
+      </div>
+      <!-- secondary navigation bar -->
+      <div class="border-x-gray-800">
+        <ul
+          class="list flex items-center justify-around px-24 mb-3 mt-2 pt-3 pb-1 font-sance text-stone-700"
+        >
+          <li class="li"><a class="a" href="">Yoda Products</a></li>
+          <li class="li"><a class="a" href="">Lab Tests</a></li>
+          <li class="li"><a class="a" href="">Health & Nutrition</a></li>
+          <li class="li"><a class="a" href="">Women Care</a></li>
+          <li class="li"><a class="a" href="">Personal Care</a></li>
+          <li class="li"><a class="a" href="">Ayurveda</a></li>
+          <li class="li"><a class="a" href="">Health Devices</a></li>
+          <li class="li"><a class="a" href="">Home Essentials</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="mx-24 shadow-red-900 mt-10">
+      <div class="flex flex-col items-center max-w-screen-xl text-center">
+        <div class="w-4/5 flex items-center justify-around">
+          <h1 class="text-slate-600 text-2xl">What are you looking for?</h1>
+          <div>
+            <span class="text-slate-600 text-lg">Order with prescription.</span>
+            <button class="text-amber-500 font-bold">UPLOAD NOW</button>
+          </div>
+        </div>
+        <div
+          class="flex-row shadow-md flex w-3/4 bg-white mt-4 rounded-full"
+        >
+          <img
+            class="opacity-50 mx-3"
+            height="2"
+            width="20"
+            src="./assets/searchbar/icons8-search.svg"
+            alt=""
+          />
+          <input
+            class="w-full h-12 outline-none"
+            type="text"
+            placeholder="Search medicines & more"
+            name=""
+            id=""
+          />
+          <button
+            class="w-40 bg-amber-600 font-sance text-lg text-white font-bold rounded-full"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mx-40 mt-10">
+      <div class="flex items-center justify-between">
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_1.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">Medicine</div>
+        </div>
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_2.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">Women Care</div>
+        </div>
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_3.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">
+            Health & Nutrition
+          </div>
+        </div>
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_4.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">Protein's</div>
+        </div>
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_5.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">Home Essentials</div>
+        </div>
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_6.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">Ayurveda</div>
+        </div>
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_7.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">Personal Care</div>
+        </div>
+        <div class="text-center rounded-xl">
+          <div class="overflow-hidden rounded-xl">
+            <img
+              height="130"
+              class="hover:scale-125 transition duration-1000 text-clip"
+              width="130"
+              src="/assets/categories slider/_categories_category_8.png"
+              alt=""
+            />
+          </div>
+          <div class="text-slate-600 text-s font-medium">Offers</div>
+        </div>
+      </div>
+    </div>
+    <div class="ml-40 mr-40 mt-10">
+      <div class="flex items-center justify-around">
+        <div>
+          <img
+            height="380"
+            width="380"
+            src="/assets/Banner images/Free-Delivery.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            height="380"
+            width="380"
+            src="/assets/Banner images/Banner-2.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            height="380"
+            width="380"
+            src="/assets/Banner images/Banner-3_1.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class=" shadow-xl mr-40 ml-40 mt-10">
+      <div class="  rounded-xl  overflow-hidden flex items-center justify-between">
+        <div class="bg-[#00435d] flex">
+          <img
+            src="./assets/order with prescription/_icons_prescription-icon.png"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <h3>Order With Prescription</h3>
+            <p class="overflow-hidden h-12 leading-none"><p>Upload Prescription and we will</p> deliver your medicines</p>
+            <button>Upload</button>
+          </div>
+        </div>
+        <div>
+          <h3>How does this work?</h3>
+          <ol type="number">
+            <li class="flex"><h6>1.</h6>Upload a photo of your prescription</li>
+            <li class="flex"><h6>2.</h6>Add delivery address and place the order</li>
+            <li class="flex"><h6>3.</h6>we will call you to confirm the medicines</li>
+            <li class="flex"><h6>4.</h6>Now, sit back! your medicines will get delivered at your doorstep</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
