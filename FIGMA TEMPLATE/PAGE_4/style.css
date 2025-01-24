@@ -1,0 +1,11 @@
+body {
+    font-family: 'Satoshi', sans-serif;
+
+}
+
+.gradient {
+    background: linear-gradient(274deg, rgba(255, 0, 0, 0.80) 60.61%, rgba(180, 90, 171, 0.80) 73%, rgba(0, 213, 167, 0.80) 81.21%, rgba(6, 116, 183, 0.80) 91.87%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

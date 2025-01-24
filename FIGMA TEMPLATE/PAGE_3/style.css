@@ -1,0 +1,13 @@
+.name {
+    background: linear-gradient(275deg, rgba(255, 0, 0, 0.80) 25.06%, rgba(180, 90, 171, 0.80) 33.92%, rgba(0, 213, 167, 0.80) 39.78%, rgba(6, 116, 183, 0.80) 47.4%);
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+body{
+    font-family: 'Satoshi', sans-serif;
+
+}

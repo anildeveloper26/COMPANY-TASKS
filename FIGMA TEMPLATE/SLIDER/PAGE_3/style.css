@@ -1,0 +1,11 @@
+body {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 100;
+}
+
+.company_name {
+    background: var(--Gradient-text, linear-gradient(273deg, rgba(255, 0, 0, 0.80) 31.09%, rgba(180, 90, 171, 0.80) 54.73%, rgba(0, 213, 167, 0.80) 70.39%, rgba(6, 116, 183, 0.80) 90.73%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

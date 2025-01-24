@@ -1,0 +1,31 @@
+tailwind.config = {
+    theme:{
+        extend:{
+           fontSize:{
+            xsm:'36px'
+           },
+           borderRadius:{
+            xsm:'32px'
+           },
+           width:{
+            photo:'486px',
+            w:'1600px',
+            p:'912px',
+            xl:'1520px',
+            xll:'20px'
+           },
+           height:{
+            photo:'745px',
+            w:'930px',
+            p:'850px'
+           },
+           zIndex:{
+            below:'-1'
+           },
+           spacing:{
+            'c':'-70px'
+           },
+
+        }
+    }
+  }
